@@ -354,3 +354,7 @@ a {
 .about-all {
   background-color: var(--third-title-color);
 }
+.portfolio-title {
+  display: block;
+  border-radius: 4px;
+}

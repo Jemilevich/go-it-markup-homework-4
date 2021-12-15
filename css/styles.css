@@ -79,7 +79,6 @@ a {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19em;
-  margin-left: 145px;
   margin-top: 24px;
   margin-bottom: 25px;
 }
@@ -104,8 +103,6 @@ a {
 }
 .description-element {
   width: 270px;
-}
-.description-element-1 {
 }
 
 .description-element:not(:last-child) {

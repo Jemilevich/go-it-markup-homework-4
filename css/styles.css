@@ -9,9 +9,16 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 link,
 a {
@@ -25,8 +32,37 @@ a {
 .header-item {
   list-style: none;
 }
+
+.container {
+  display: flex;
+  width: 1200px;
+  justify-content: space-between;
+}
+.header-navigation {
+  display: flex;
+}
+.header-titles {
+  display: flex;
+}
 .email {
   color: var(--third-title-color);
+}
+.header-list-item {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 50px;
+}
+.header-list-item-2 {
+  margin-left: 331px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.header-list-item-3 {
+  width: 122px;
+  margin-left: 50px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-right: 215px;
 }
 .style-studio-name {
   font-family: "Raleway";
@@ -34,6 +70,9 @@ a {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19em;
+  margin-left: 145px;
+  margin-top: 24px;
+  margin-bottom: 25px;
 }
 .studio-name {
   color: var(--third-title-color);
@@ -47,6 +86,11 @@ a {
 .header-phone {
   color: var(--description-color);
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .about-our-decisions {
   width: 1600px;
   height: 600px;

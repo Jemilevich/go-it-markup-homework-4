@@ -105,7 +105,10 @@ a {
 .description-element {
   width: 270px;
 }
-.description-element:nth-last-child() {
+.description-element-1 {
+}
+
+.description-element:not(:last-child) {
   margin-right: 30px;
 }
 .about-our-decisions {
@@ -146,6 +149,7 @@ a {
   line-height: 1.14em;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 10px;
 }
 
 .article-about-us-description {

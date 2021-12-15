@@ -90,6 +90,14 @@ a {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.section-description {
+  display: flex;
+}
+.description-element-1 {
+  width: 270px;
+  padding-left: 215px;
+  padding-top: 94px;
+}
 
 .about-our-decisions {
   width: 1600px;

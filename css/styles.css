@@ -175,30 +175,40 @@ a {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-
+.what-are-we-doing,
+.what-are-we-doing-list {
+  display: flex;
+  justify-content: center;
+}
+.what-are-we-doing {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16em;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.photo-elements:not(:last-child) {
+  margin-right: 30px;
+}
+.section-our-team {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
 .out-team-section {
-  width: 264px;
-  height: 42px;
-  left: 668px;
-  top: 1543px;
   font-size: 36px;
   line-height: 1.16em;
   text-align: center;
   letter-spacing: 0.03em;
 }
-.our-team-photo-1 {
-  background: #f5f4fa;
+.our-team-list {
+  display: flex;
 }
-.our-team-photo-2 {
-  background: url(5844.jpg);
-  border-radius: 0px;
-}
-
-.our-team-profesionals {
-  width: 264px;
-  height: 42px;
-  left: 668px;
-  top: 1543px;
+.photo:not(:last-child) {
+  margin-right: 30px;
 }
 
 .our-team-profesionals {
@@ -220,11 +230,11 @@ a {
 }
 
 .about-us {
-  width: 1600px;
-  height: 252px;
-  left: 0px;
-  top: 2097px;
   background: #2f303a;
+}
+.footer-section {
+  display: flex;
+  flex-direction: column;
 }
 .our-name {
   font-size: 26px;

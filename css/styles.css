@@ -45,13 +45,18 @@ a {
 }
 .header-container {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
 }
 .header-navigation {
   display: flex;
 }
 .header-titles {
   display: flex;
+  margin-left: auto;
+}
+.header-titles-2 {
+  display: flex;
+  margin-left: auto;
 }
 .email {
   color: var(--third-title-color);
@@ -62,17 +67,9 @@ a {
   margin-left: 50px;
 }
 .header-list-item-2 {
-  margin-left: 331px;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  margin-right: 50px;
 }
-.header-list-item-3 {
-  width: 122px;
-  margin-left: 50px;
-  margin-top: 32px;
-  margin-bottom: 32px;
-  margin-right: 215px;
-}
+
 .style-studio-name {
   font-family: "Raleway";
   font-style: normal;
@@ -81,9 +78,17 @@ a {
   line-height: 1.19em;
   margin-top: 24px;
   margin-bottom: 25px;
+  margin-right: 93px;
+}
+.effective-decisions {
+  display: flex;
+  justify-content: center;
 }
 .studio-name {
   color: var(--third-title-color);
+}
+.color-studio-name {
+  color: var(--second-title-color);
 }
 .studio {
   color: var(--third-title-color);
@@ -121,6 +126,7 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  width: 696px;
 }
 
 .button {
@@ -128,13 +134,12 @@ a {
   font-weight: 700;
   color: var(--white-title-color);
   background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  padding: auto;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  margin-top: 120px;
 }
-.button-color-text {
-  color: #ffffff;
-}
+
 .article-about-us-1 {
   font-size: 14px;
   line-height: 1.14em;
@@ -204,8 +209,12 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
 }
+.our-team-photos {
+  background: #f5f4fa;
+}
 .our-team-list {
   display: flex;
+  justify-content: center;
 }
 .photo:not(:last-child) {
   margin-right: 30px;
@@ -218,6 +227,7 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-top: 30px;
 }
 
 .our-team-profesionals-position {
@@ -227,6 +237,7 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+  margin-top: 10px;
 }
 
 .about-us {
@@ -235,6 +246,9 @@ a {
 .footer-section {
   display: flex;
   flex-direction: column;
+}
+.footer-place {
+  margin-top: 60px;
 }
 .our-name {
   font-size: 26px;
@@ -274,6 +288,9 @@ a {
 .portfolio-item-name {
   color: var(--description-color);
 }
+.color-portfolio {
+  color: var(--third-title-color);
+}
 .about-all {
   font-family: "Roboto";
   font-weight: 500;
@@ -290,7 +307,6 @@ a {
   line-height: 1.6em;
   letter-spacing: 0.03em;
   background: #f5f4fa;
-  margin: auto;
 }
 .header-list {
   font-family: "Roboto";
@@ -308,4 +324,32 @@ a {
 }
 .our-tell {
   color: rgba(255, 255, 255, 0.6);
+}
+.portfolio-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 94px;
+}
+.portfolio-list-elements {
+  text-align: center;
+  background: #f5f4fa;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 4px;
+  box-sizing: border-box;
+}
+.portfolio-elemnts-icon {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+}
+
+.title-name {
+  margin-top: 20px;
+}
+.portfolio-item-name {
+  margin-top: 4px;
 }

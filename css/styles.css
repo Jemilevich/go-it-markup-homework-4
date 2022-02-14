@@ -83,6 +83,10 @@ a {
 .effective-decisions {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .studio-name {
   color: var(--third-title-color);
@@ -106,6 +110,9 @@ a {
 .section-description {
   display: flex;
 }
+.section-about-description {
+  padding-bottom: 0;
+}
 .description-element {
   width: 270px;
 }
@@ -127,6 +134,7 @@ a {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   width: 696px;
+  margin-bottom: 30px;
 }
 
 .button {
@@ -134,10 +142,8 @@ a {
   font-weight: 700;
   color: var(--white-title-color);
   background: #2196f3;
-  position: absolute;
   width: 200px;
   height: 50px;
-  margin-top: 120px;
 }
 
 .article-about-us-1 {
@@ -242,13 +248,16 @@ a {
 
 .about-us {
   background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-section {
   display: flex;
   flex-direction: column;
+  padding-top: 20px;
 }
-.footer-place {
-  margin-top: 60px;
+.footer-contacts {
+  margin-top: 9px;
 }
 .our-name {
   font-size: 26px;
@@ -291,14 +300,8 @@ a {
 .color-portfolio {
   color: var(--third-title-color);
 }
-.about-all {
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6em;
-  letter-spacing: 0.03em;
-  margin: auto;
-  background-color: var(--third-title-color);
+.portfolio-header-section {
+  border: 1px solid #ececec;
 }
 .portfolio-filer {
   font-family: "Roboto";
@@ -306,6 +309,7 @@ a {
   font-size: 16px;
   line-height: 1.6em;
   letter-spacing: 0.03em;
+  padding: 6px 22px 6px 22px;
   background: #f5f4fa;
 }
 .header-list {
@@ -346,12 +350,39 @@ a {
 }
 .portfolio-elemnts-icon {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .title-name {
   margin-top: 20px;
 }
+.title-item {
+  padding-top: 20px;
+  padding-left: 24px;
+  background: #ffffff;
+}
 .portfolio-item-name {
-  margin-top: 4px;
+  font-family: "Roboto";
+  font-weight: 400;
+  margin-left: 24px;
+  padding-top: 4px;
+  padding-bottom: 20px;
+  font-size: 16px;
+  line-height: 30px;
+}
+.portfolio-list-images {
+  margin-bottom: 30px;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+.portfolio-list-description {
+  padding-top: 20px;
+}
+
+.portfolio-elemnts-icon {
+  background: #ffffff;
+  margin-bottom: 94px;
+}
+.list-images-space {
+  margin-right: 30px;
 }

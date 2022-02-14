@@ -7,23 +7,15 @@
     <title>Портфолио</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet"/>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"/>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="portfolio-header-section">
         <div class="container header-container">
     <nav class="header-navigation">  
     <a class="style-studio-name" lang="en" href="link"><span class="studio-name">Web</span><span class="color-studio-name">Studio</span></a>
@@ -34,7 +26,7 @@
         </ul class="header-titles">
     </nav>
     <ul class="header-titles-2">
-    <li class="header-list-item-2"><a class="studio header-list" href="link">info@devstudio</a></li> 
+    <li class="header-list-item-2"><a class="header-phone header-list" href="link">info@devstudio</a></li> 
     <li class="header-list-item-3"><a class="header-phone header-list" href="tel:+380961111111">+38 096 111 11 11</a></li>
 </ul>
         </div>
@@ -43,8 +35,8 @@
       <section>
         <div class="container">
         <ul class="portfolio-list">
-          <li class="portfolio-list-elements"><button type="button" class="about-all">Все</button></li>
-          <li class="portfolio-list-elements"><button type="button" class="portfolio-filer">Веб-сайты</button></li>
+          <li class="portfolio-list-elements"><button type="button" class="about-all portfolio-filer ">Все</button></li>
+          <li class="portfolio-list-elements"><button class="portfolio-filer" type="button">Веб-сайты</button></li>
           <li class="portfolio-list-elements"><button class="portfolio-filer" type="button">Приложения</button></li>
           <li class="portfolio-list-elements"><button class="portfolio-filer" type="button">Дизайн</button></li>
           <li class="portfolio-list-elements"><button class="portfolio-filer" type="button">Маркетинг</button></li>
@@ -52,56 +44,68 @@
         </div>   
         <div class="container">
           <ul class="portfolio-elemnts-icon">
-            <li>
-              <img
-                class="portfolio-photo-list"
-                src="./img/img (7).jpg"
-                width="370"
-                height="294"
-              />
+            <li class="portfolio-list-images list-images-space">
+              <img class="portfolio-photo-list" src="./img/img (7).jpg" width="370" height="294"/>
+              <div>
               <h3 class="title-item">Технокряк</h3>
               <p class="portfolio-item-name">Веб-сайт</p>
-
+              </div>
             </li>
-            <li>
+            <li class="portfolio-list-images list-images-space">
               <img src="./img/img (8).jpg" width= "370" height= "294" alt="" />
+              <div>
               <h3 class="title-item">Постер New Orlean vs Golden Star</h3>
               <p class="portfolio-item-name">Дизайн</p>
+              </div>
             </li>
-            <li>
+            <li class="portfolio-list-images">
               <img src="./img/img (9).jpg" width= "370" height= "294" />
+              <div>
               <h3 class="title-item">Ресторан Seafood</h3>
               <p class="portfolio-item-name">Приложение</p>
+              </div>
             </li>
-            <li>
+            <li class="portfolio-list-images list-images-space">
               <img src="./img/img (10).jpg" width= "370" height= "294" />
+              <div>
               <h3 class="title-item">Проект Prime</h3>
               <p class="portfolio-item-name">Маркетинг</p>
+              </div>
             </li>
-            <li>
+            <li class="portfolio-list-images list-images-space">
               <img src="./img/img (11).jpg" width= "370" height= "294" />
+              <div class="porfolio-list-description">
               <h3 class="title-item">Проект Boxes</h3>
               <p class="portfolio-item-name">Приложение</p>
+              </div>
             </li>
-            <li>
+            <li class="portfolio-list-images">
               <img src="./img/img (12).jpg" width= "370" height= "294" />
+              <div>
               <h3 class="title-item">Inspiration has no Borders</h3>
               <p class="portfolio-item-name">Веб-сайт</p>
+              </div>
             </li>
-            <li>
+            <li class="portfolio-list-images list-images-space">
               <img src="./img/img (13).jpg" width= "370" height= "294" />
+              <div>
               <h3 class="title-item">Издание Limited Edition</h3>
               <p class="portfolio-item-name">Дизайн</p>
+              </div>
             </li>
-            <li>
+            <li class="portfolio-list-images list-images-space">
               <img src="./img/img (14).jpg" width= "370" height= "294" />
+              <div>
               <h3 class="title-item">Проект LAB</h3>
               <p class="portfolio-item-name">Маркетинг</p>
+              </div>
             </li>
-            <li>
+            <li class="portfolio-list-images ">
               <img src="./img/img (15).jpg" width= "370" height= "294" />
+              <div>
               <h3 class="title-item">Growing Business</h3>
               <p class="portfolio-item-name">Приложение</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -112,7 +116,7 @@
         <a class="style-studio-name footer-place"><span class="studio-name">Web</span><span class="studio-name-2">Studio</span></a>
             <ul class="footer-section">
             <li class="adress footer-contacts">г.Киев,пр-т Леси Украинки,26</li>
-            <li><a class="our-tell footer-contacts" href="mailto:@example.com"> @example.com</a></li>
+            <li class="footer-contacts"><a class="our-tell" href="mailto:@example.com"> @example.com</a></li>
             <li class="footer-contacts"><a class="our-tell" href="tel:+380991111111">+38 099 111 11 11</a></li>
         </ul>
     </div>

@@ -225,6 +225,10 @@ a {
 .photo:not(:last-child) {
   margin-right: 30px;
 }
+.our-team-space {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 
 .our-team-profesionals {
   font-weight: 500;
@@ -233,7 +237,6 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  margin-top: 30px;
 }
 
 .our-team-profesionals-position {
@@ -248,6 +251,8 @@ a {
 
 .about-us {
   background: #2f303a;
+}
+.footer-place {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -332,8 +337,8 @@ a {
 .portfolio-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
-  margin-top: 94px;
+  padding-bottom: 50px;
+  padding-top: 94px;
 }
 .portfolio-list-elements {
   text-align: center;
@@ -357,6 +362,10 @@ a {
   margin-top: 20px;
 }
 .title-item {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2em;
+  letter-spacing: 0.06em;
   padding-top: 20px;
   padding-left: 24px;
   background: #ffffff;
@@ -364,7 +373,7 @@ a {
 .portfolio-item-name {
   font-family: "Roboto";
   font-weight: 400;
-  margin-left: 24px;
+  padding-left: 24px;
   padding-top: 4px;
   padding-bottom: 20px;
   font-size: 16px;

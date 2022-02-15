@@ -363,38 +363,35 @@ a {
   background: #ffffff;
 }
 
-.title-name {
-  margin-top: 20px;
-}
 .title-item {
   font-weight: bold;
   font-size: 18px;
   line-height: 2em;
   letter-spacing: 0.06em;
-  padding-top: 20px;
-  padding-left: 24px;
+
   background: #ffffff;
 }
 .portfolio-item-name {
   font-family: "Roboto";
   font-weight: 400;
-  padding-left: 24px;
-  padding-top: 4px;
-  padding-bottom: 20px;
   font-size: 16px;
   line-height: 1.87em;
 }
 .portfolio-list-images {
-  border: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
   box-sizing: border-box;
+  padding-top: 20px;
+  padding-left: 24px;
+  padding-bottom: 20px;
 }
 .portfolio-list-description {
   padding-top: 20px;
 }
 
-.list-images-space {
-  margin-right: 20px;
-}
 .space {
+  margin-right: 30px;
+}
+.space-for-elements {
   margin-bottom: 30px;
 }

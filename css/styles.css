@@ -68,6 +68,18 @@ a {
 }
 .header-list-item-2 {
   margin-right: 50px;
+  display: flex;
+  align-items: baseline;
+}
+.header-list-item-3 {
+  display: flex;
+  align-items: center;
+}
+
+.header-icon {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
 }
 
 .style-studio-name {
@@ -115,8 +127,23 @@ a {
 .section-about-description {
   padding-bottom: 0;
 }
+
 .description-element {
+  display: block;
   width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+.title-description {
+  padding-top: 30px;
+}
+.icon-1 {
+  display: block;
+  width: 65px;
+  height: 70px;
+  padding-top: 25px;
 }
 
 .description-element:not(:last-child) {
@@ -179,10 +206,8 @@ a {
   color: var(--second-title-color);
 }
 .photo {
-  width: 270px;
-  height: 368px;
-  left: 215px;
-  top: 1635px;
+  max-width: 270px;
+  max-height: 430px;
   background: var(--white-title-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -229,7 +254,7 @@ a {
 }
 .our-team-space {
   padding-top: 30px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .our-team-profesionals {
@@ -249,11 +274,67 @@ a {
   letter-spacing: 0.03em;
   color: #757575;
   margin-top: 10px;
+  margin-bottom: 16px;
+}
+
+.team-icons-list {
+  display: flex;
+  justify-content: center;
+}
+.social-link-icon {
+  width: 44px;
+  height: 44px;
+}
+.icon-team-1 {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 50%;
 }
 
 .about-us {
-  background: #2f303a;
+  background-color: #2f303a;
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../img/Img.17.jpg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+.title-our-clients {
+  font-family: "Roboto";
+  font-size: 700;
+  line-height: 42, 19px;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.our-clients {
+  display: flex;
+}
+
+.our-clients-elements {
+  display: inline-block;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-right: 30px;
+}
+.our-clients-elements-icon {
+  width: 106px;
+  height: 60px;
+}
+
 .footer-place {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -309,6 +390,9 @@ a {
 }
 .portfolio-header-section {
   border: 1px solid #ececec;
+}
+.color-for-background {
+  background-color: #2f303a;
 }
 .portfolio-filer {
   font-family: "Roboto";
